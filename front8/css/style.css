@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.logsec{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to left, #8fccfb, #1d74a9);
+    position: relative;
+}
+
+.loginformco{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 270px;
+    height: 365px;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.title{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 20px;
+}
+.emailin {
+    margin-top: 10%;
+}
+.emailin input,.passin input{
+    outline: none;
+    border: none;
+    border-bottom-style: solid;
+    border-color: rgba(128, 128, 128, 0.596);
+    border-width: 1px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.passin{
+    margin-top: 10px;
+}
+.signup{
+    margin-top: 20px;
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.signup a{
+    text-decoration: none;
+    color: #0285e9;
+}
+
+.logbutton {
+    margin-top: 10%;
+    position: relative;
+}
+
+.logbutton button{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    width: 70%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    background-image:linear-gradient(to left, #8fccfb, #1d74a9);
+    color: white;
+    font-size: medium;
+}
+.logbutton button:hover{
+    background-image:linear-gradient(to left, #1d74a9, #8fccfb);
+}
